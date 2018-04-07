@@ -27,6 +27,10 @@ This is a simple Flask Blog, as seen in the [Fromzero](http://fromzero.io) cours
 If output Error like this(alembic.util.exc.CommandError: Directory migrations already exists)
 then remove migration dir
 
+If Error like this (alembic util command error can't find identifier) then
+"https://stackoverflow.com/questions/32311366/alembic-util-command-error-cant-find-identifier"
+
+
 #python manage.py db migrate 
 #python manage.py db upgrade
 #python manage.py runserver
